@@ -8,6 +8,7 @@ import SocialMediaIcons from './Social Media Icons.png'
 import UserAvatars from './User Avatars.svg'
 
 export const Images = {
+  BackArrow,
   Close,
   FeedMockup,
   HamburgerMenu,

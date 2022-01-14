@@ -4,7 +4,7 @@ import { Button } from '../Button'
 import { MAIN_CONTENT } from '../../content'
 
 export const Main = () => {
-  const { h1, p, users, under_users } = MAIN_CONTENT
+  const { h1, p, users, under_users, feed_mockup } = MAIN_CONTENT
   
   return (
     <div className="flex flex-col-reverse items-center lg:flex-row justify-between md:px-16 lg:px-24 px-5 bg-gradient-to-r from-red-100 via-yellow-100 to-white py-5">
@@ -21,7 +21,7 @@ export const Main = () => {
       </div>
       <div className="px-0 sm:px-16 md:px-20 lg:px-0">
         <img 
-          src={Images.FeedMockup}
+          src={feed_mockup}
           alt="feed mockup"
           className="w-full max-w-[50rem]"
         />
