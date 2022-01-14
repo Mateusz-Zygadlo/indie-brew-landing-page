@@ -21,7 +21,7 @@ export const Navbar = () => {
 
   return (
     <div 
-      className="sticky -top-1 px-5 md:px-16 lg:px-24 py-4 bg-white"
+      className="sticky -top-1 px-5 md:px-16 lg:px-24 py-4 bg-gradient-to-r from-red-100 via-yellow-100 to-white z-100"
       ref={myRef}
     >
       <div className="flex items-center justify-between relative">
