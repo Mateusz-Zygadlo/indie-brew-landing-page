@@ -4,6 +4,7 @@ import {
   Main,
   Resources,
   Advantage,
+  Footer,
 } from '../components'
 
 export const Home = () => {
@@ -13,6 +14,7 @@ export const Home = () => {
       <Main />
       <Resources />
       <Advantage />
+      <Footer />
     </div>
   )
 }

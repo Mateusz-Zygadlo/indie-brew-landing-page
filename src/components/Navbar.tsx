@@ -21,7 +21,7 @@ export const Navbar = () => {
 
   return (
     <div 
-      className="sticky -top-1 px-5 md:px-16 lg:px-24 py-4 bg-gradient-to-r from-red-100 via-yellow-100 to-white z-100"
+      className="sticky -top-1 px-5 md:px-16 lg:px-24 py-4 main-gradient z-50"
       ref={myRef}
     >
       <div className="flex items-center justify-between relative">
@@ -38,7 +38,7 @@ export const Navbar = () => {
             <Button>Get Started - it's free</Button>
           </div>
         ) : isOpen ? (
-          <div className="flex flex-col items-center absolute top-0 -right-1 w-full py-10 px-10 bg-white border-2 border-black">
+          <div className="flex flex-col items-center absolute top-0 -right-1 w-full py-10 px-10 bg-white border-2 border-black z-50">
             <img 
               src={Images.Close}
               alt="close"

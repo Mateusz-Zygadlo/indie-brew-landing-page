@@ -11,7 +11,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        'violet': '#664EFC'
+        'violet': '#664EFC',
+        'beige': '#FDFCF9'
       }
     },
   },
