@@ -5,3 +5,4 @@ export {
   Resources,
   Advantage,
 } from './home'
+export { RegisterSection } from './signup'

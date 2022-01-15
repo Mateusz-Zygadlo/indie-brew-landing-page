@@ -27,3 +27,12 @@ export const ADVANTAGE_CONTENT = {
     img: Images.BackArrow,
   }
 }
+
+export const SIGNUP_CONTENT = {
+  h1: 'Create your personalized feed.',
+  information: [
+    { p: "Over 20 resources. With resources ranging from Reddit to IndieHackers, we've got all your needs covered." },
+    { p: "Delivered weekly. Every week at exactly Tuesday 12:00 P.M EST - expect a value - packed digest right in your email." },
+    { p: "Unlimited ideas. With a;; the ideas you'll be reading about, what's stopping you from creating a sustainable startup?" }
+  ]
+}

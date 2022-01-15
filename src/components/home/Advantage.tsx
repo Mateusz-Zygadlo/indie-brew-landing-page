@@ -16,7 +16,7 @@ export const Advantage = () => {
       <div className="mt-10 tablet:mt-0">
         <h1 className="text-5xl font-extrabold w-full lg:max-w-[40rem]">{h1}</h1>
         <p className="my-2 lg:pr-10">{p}</p>
-        <a href='/login' className="flex items-center text-violet">
+        <a href='/register' className="flex items-center text-violet">
           <p className="mr-5">{link.p}</p>
           <img 
             src={link.img}
